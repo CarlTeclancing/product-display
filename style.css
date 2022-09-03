@@ -75,6 +75,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .product-area{
     width: 450px;
