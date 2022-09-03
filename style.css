@@ -69,7 +69,95 @@ ul li a:hover{
 .mobile{
     display: none;
 }
-
+section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-area{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.description{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.disp{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: auto;
+    margin-left: 10px;
+}
+.disp img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 16px;
+    background: none;
+}
+.col{
+    color: hsl(26, 100%, 55%);
+    font-size: 1rem;
+    margin-top: 20px;
+}
+h1{
+    font-size: 2.3rem;
+    margin-top: 20px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+p{
+    color: gray;
+    margin-top: 20px;
+}
+span{
+    font-size: 1rem;
+    color: gray;
+    margin-top: 20px;
+}
+.btn-area{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+button{
+    width: auto;
+    height:40px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    background-color: rgb(240, 234, 234);
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.733);
+    cursor: pointer;
+}
+.btn-3{
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 200px;
+    margin-left: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
 @media screen and (max-width: 660px){
     nav{
         display: none;
