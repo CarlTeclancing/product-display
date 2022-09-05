@@ -192,6 +192,8 @@ footer button{
     }
     .mobile{
         display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
     .resp{
         width: 100%;
