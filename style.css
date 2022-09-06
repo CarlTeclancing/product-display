@@ -61,7 +61,7 @@ ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    position: relative;
 }
 .resp{
     display: none;
@@ -188,6 +188,23 @@ footer button{
 }
 #main-img2, #main-img3, #main-img4{
     display: none;
+}
+.cart{
+    width: 300px;
+    height: 200px;
+    display: none;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    box-shadow: 2px 2px rgb(224, 224, 224);
+    right: -60px;
+    top: 61px;
+    border: 1px solid rgb(143, 138, 138);
+}
+.top{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid rgb(143, 138, 138);
 }
 @media screen and (max-width: 660px){
     nav{

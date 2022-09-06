@@ -4,6 +4,14 @@ let img1 = document.getElementById('img1');
 let img2 = document.getElementById('img2');
 let img3 = document.getElementById('img3');
 let img4 = document.getElementById('img4');
+let cartActive = document.getElementById('Cart-active');
+
+
+
+
+cartActive.addEventListener('click', function(){
+    document.getElementById('cart').style.display = 'flex';
+})
 
 
 img1.addEventListener('click', function(){
