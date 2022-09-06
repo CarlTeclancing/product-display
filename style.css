@@ -186,6 +186,9 @@ footer button{
     width: 140px;
     border-radius: 12px;
 }
+#main-img2, #main-img3, #main-img4{
+    display: none;
+}
 @media screen and (max-width: 660px){
     nav{
         display: none;
