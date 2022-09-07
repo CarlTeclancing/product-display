@@ -4,14 +4,29 @@ let img1 = document.getElementById('img1');
 let img2 = document.getElementById('img2');
 let img3 = document.getElementById('img3');
 let img4 = document.getElementById('img4');
-let cartActive = document.getElementById('Cart-active');
+let Opencart = document.getElementById('Cart-active');
+let cartShow = document.getElementById('cart-1');
+
+let x = 0;
+
+getName = () =>{
+    setTimeout(function(){
+        //alert('please enter your name!');
+    }, 300)
+for( var i = 0; i <= x; i++){
+    setInterval( function(){
+           // alert(x)
+            x++;
+        }, 10000);
+
+    }
+}
+
+getName();
 
 
 
 
-cartActive.addEventListener('click', function(){
-    document.getElementById('cart').style.display = 'flex';
-})
 
 
 img1.addEventListener('click', function(){
@@ -19,28 +34,28 @@ img1.addEventListener('click', function(){
    document.getElementById('main-img2').style.display = 'none';
    document.getElementById('main-img3').style.display = 'none';
    document.getElementById('main-img4').style.display = 'none';
-})
+});
 
 img2.addEventListener('click', function(){
     document.getElementById('main-img1').style.display = 'none';
     document.getElementById('main-img2').style.display = 'block';
     document.getElementById('main-img3').style.display = 'none';
     document.getElementById('main-img4').style.display = 'none';
- })
+ });
 
  img3.addEventListener('click', function(){
     document.getElementById('main-img1').style.display = 'none';
     document.getElementById('main-img2').style.display = 'none';
     document.getElementById('main-img3').style.display = 'block';
     document.getElementById('main-img4').style.display = 'none';
- })
+ });
 
  img4.addEventListener('click', function(){
     document.getElementById('main-img1').style.display = 'none';
     document.getElementById('main-img2').style.display = 'none';
     document.getElementById('main-img3').style.display = 'none';
     document.getElementById('main-img4').style.display = 'block';
- })
+ });;;
 
 closeNav.addEventListener('click', function(){
     
@@ -62,6 +77,7 @@ openNav.addEventListener('click', function(){
     
 
 });
+
 
 
 

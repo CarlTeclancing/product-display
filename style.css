@@ -192,7 +192,7 @@ footer button{
 .cart{
     width: 300px;
     height: 200px;
-    display: none;
+    display: flex;
     align-items: center;
     position: absolute;
     flex-direction: column;
@@ -200,11 +200,23 @@ footer button{
     right: -60px;
     top: 61px;
     border: 1px solid rgb(143, 138, 138);
+    background-color: white;
 }
 .top{
     width: 90%;
     height: 50px;
     border-bottom: 1px solid rgb(143, 138, 138);
+}
+.cart-content{
+    height: auto;
+    width: 95%;
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
 }
 @media screen and (max-width: 660px){
     nav{
